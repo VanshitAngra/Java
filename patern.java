@@ -228,24 +228,42 @@ public class patern {
         //     }
         //     System.out.println();
         // }
-        for(int i=0;i<n;i++)
+//                 1
+//         2       3       2
+// 3       4       5       4       3
+// 4       5       6       7       6       5       4
+// 5       6       7       8       9       8       7       6       5
+        // for(int i=0;i<n;i++)
+        // {
+        //     int a=i+1;
+        //     for(int j=1;j<n-i;j++)
+        //     {
+        //         System.out.print("\t");
+        //     }
+        //     for(int j=0;j<=i;j++)
+        //     { 
+        //         System.out.print(a+"\t");
+        //         a++;
+        //     }
+        //     a-=2;
+        //     for(int j=1;j<=i;j++)
+        //     {
+        //         System.out.print(a+"\t");
+        //         a--;
+        //     }
+        //     System.out.println();
+        // }
+        for(int i=1;i<=n/2+1;i++)
         {
-            int a=i+1;
-            for(int j=1;j<n-i;j++)
+            for(int j=i;j<=n-i;j++)
             {
-                System.out.print("\t");
+                System.out.print("!");
             }
-            for(int j=0;j<=i;j++)
-            { 
-                System.out.print(a+"\t");
-                a++;
-            }
-            a-=2;
-            for(int j=1;j<=i;j++)
+            for(int j=i;j>0;j--)
             {
-                System.out.print(a+"\t");
-                a--;
+                System.out.print(j);
             }
+            for(int j=)
             System.out.println();
         }
         ob.close();
