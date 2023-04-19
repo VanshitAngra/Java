@@ -1,5 +1,6 @@
 //31. Next Permutation
 import java.util.*;
+
 public class NextPermutation {
     public static void main(String[] args) {
         int[] nums={1,2,3};
@@ -25,7 +26,7 @@ public class NextPermutation {
         if(p==q)
         {
             reverse(0,nums.length-1,nums);
-            System.out.println(Array.toString(nums));
+            System.out.println(Arrays.toString(nums));
             return;
         }
         int t=nums[p];
