@@ -1,23 +1,8 @@
-// import java.util.Scanner;
-
-// public class TwoD {
-//     public static void main(String[] args) {
-//         Scanner ob=new scanner(System.in);
-//         int[][]arr=new int[3][4];
-//         for(int i=0;i<arr.length;i++)
-//         {
-//             for(int j=0;j<arr.length;j++)
-//             {
-                
-//             }
-//         }
-//     }
-// }
-// package str;
+package str;
 
 import javax.lang.model.util.ElementScanner14;
 
-public class TwoD {
+public class GoodString {
     public static void main(String[] args) {
     String s="cbaeicdeioua";
     String s1="";

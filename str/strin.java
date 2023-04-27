@@ -3,9 +3,9 @@ import java.util.*;
 
 public class strin {
     public static void main(String[] args) {
-        String s="Hello";
-        String s1="abc";
-        String s2= new String("abf");
+        String s="nitin";
+        String s1="";
+        //String s2;
         // System.out.println(s==s1);
         // System.out.println(s==s2);
         // System.out.println(s1.equals(s2));
@@ -18,7 +18,19 @@ public class strin {
         for(int i=0;i<s.length();i++)
         {
             for(int j=i;j<s.length();j++)
-            System.out.println(s.substring(i,j+1));
+            {
+                s1=s.substring(i,j+1);
+                String s2="";
+                for(int k=s1.length()-1;k>=0;k--)
+                {
+                    s2+=s1.charAt(k);
+                }
+                if(s1.equals(s2))
+                {
+                    System.out.println(s1);
+                }
+                
+            }
         }
     }
 }
