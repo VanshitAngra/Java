@@ -9,7 +9,7 @@ public class subsequence {
         System.out.println(total);
         for(int i=0;i<total;i++)
         {
-            int n=i;
+            int a=i;
             int pos=0;
         }
     }
