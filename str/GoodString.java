@@ -4,14 +4,14 @@ import javax.lang.model.util.ElementScanner14;
 
 public class GoodString {
     public static void main(String[] args) {
-    String s="cbaeicdeioua";
+    String s="cbaeicde ";
     String s1="";
     int ans=0;
     for(int i=0;i<s.length();i++)
     {
-        for(int j=0;j<s.length();j++)
+        for(int j=i;j<s.length();j++)
         {
-            s1=s.substring(i,j+1);
+            s1=s.substring(i,j);
             String s2="";
             int a=0;
             for(int k=0;k<s1.length();k++)
