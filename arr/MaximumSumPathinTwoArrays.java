@@ -1,7 +1,7 @@
 package arr;
 
 import java.util.*;
-public class Main {
+public class MaximumSumPathinTwoArrays {
     public static void main(String args[]) {
 		Scanner sc = new Scanner(System.in);
 		int t = sc.nextInt();
@@ -37,5 +37,6 @@ public class Main {
 			res+=Math.max(s1,s2);
 			System.out.println(res);
 		}
+		sc.close();
     }
 }
