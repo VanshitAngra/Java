@@ -1,3 +1,4 @@
+package arr;
 import java.util.*;
 //leet code 349 question
 public class intersectionofArray {
