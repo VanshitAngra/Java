@@ -17,5 +17,9 @@ public class ArrayList_Demo {
         {
             System.out.println(k);
         }
+        // for(int k:list)
+        // {
+        //     System.out.println(k);
+        // }
     }
 }
