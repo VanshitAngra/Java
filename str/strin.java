@@ -3,8 +3,9 @@ import java.util.*;
 
 public class strin {
     public static void main(String[] args) {
-        String s="nitin";
+        String s="abc";
         String s1="";
+        int a=0;
         //String s2;
         // System.out.println(s==s1);
         // System.out.println(s==s2);
@@ -27,10 +28,13 @@ public class strin {
                 }
                 if(s1.equals(s2))
                 {
-                    System.out.println(s1);
+                    // System.out.println(s1);
+                    a++;
                 }
                 
             }
+       
         }
+        System.out.println(a);
     }
 }

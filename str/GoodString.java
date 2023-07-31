@@ -12,7 +12,6 @@ public class GoodString {
         for(int j=i;j<s.length();j++)
         {
             s1=s.substring(i,j);
-            String s2="";
             int a=0;
             for(int k=0;k<s1.length();k++)
             {
@@ -27,7 +26,6 @@ public class GoodString {
                     a=0;
                 } 
             }
-            // if()  
              
         }
         
