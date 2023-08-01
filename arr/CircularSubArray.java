@@ -12,7 +12,8 @@ public class CircularSubArray {
     }
     public static int sum(int[] arr)
     {
-        for(int i=0;i<)
+        // for(int i=0;i<)
+        return 0;
     }
     public static int kadens(int[] arr)
     {
@@ -25,5 +26,6 @@ public class CircularSubArray {
             if(sum<0)
             sum=0;
         }
+        return 0;
     }
 }

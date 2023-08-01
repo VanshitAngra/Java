@@ -13,7 +13,7 @@ public class ArrayList_Demo {
         System.out.println(list);
         list.add(1, 100);
         System.out.println(list);
-        for(ArrayList k : list)
+        for(int k : list)
         {
             System.out.println(k);
         }

@@ -40,6 +40,7 @@ public class cb {
                 return false;
             }
         }
+        return true;
     }
     public static boolean CbNumber(int val)
     {
