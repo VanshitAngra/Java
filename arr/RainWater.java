@@ -1,6 +1,5 @@
 package arr;
 import java.util.*;
-import java.math.*;
 public class RainWater {
     public static void main(String[] args) {
         int[] height={4,2,0,3,2,5};
