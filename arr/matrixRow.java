@@ -21,7 +21,7 @@ public class matrixRow {
                 else
                 System.out.print(arr[n-i-1][j]);
             }
-            System.out.println();
+            System.out.println()    ;
         }
     }
 }
