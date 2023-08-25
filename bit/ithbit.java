@@ -9,7 +9,7 @@ public class ithbit {
         int n=ob.nextInt();
         int a=ob.nextInt();
         int c=(int)Math.pow(2,a);
-        if((n&c)==1)
+        if((n&c)!=0)
         System.out.println("True");
         else
         System.out.println("False");
