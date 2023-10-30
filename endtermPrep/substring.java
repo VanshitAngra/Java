@@ -1,12 +1,14 @@
+package endtermPrep;
+
 import java.util.Scanner;
 
-public class subsequence {
+public class substring {
     public static void main(String[] args) {
         Scanner ob=new Scanner(System.in);
-        String s="abc";
-        int n=s.length();
-        for (int i = 0; i <=n-1; i++) {
-            for(int j=i;j<=n;j++)
+        String s=ob.next();
+        for(int i=0;i<s.length();i++)
+        {
+            for(int j=i;j<=s.length();j++)
             {
                 System.out.print(s.substring(i, j)+" ");
             }
