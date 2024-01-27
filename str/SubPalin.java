@@ -28,8 +28,7 @@ package str;
 // }
 import java.util.*;
 public class SubPalin {
-	public static 
-    boolean pali(String st)
+	public static boolean pali(String st)
 	{
 		for(int i=0;i<st.length()/2;i++)
 		{
